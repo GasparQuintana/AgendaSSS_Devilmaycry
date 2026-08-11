@@ -1,7 +1,13 @@
+/*index.html*/
 .clase{
-    color: crimson;
+    color:#d92323;
+    font-size:90px;
     text-align: center;
-
+  margin-left: 150px;
+  padding: 30px;
+  max-width: 1000px;
+  margin-bottom: 30px;
+  
 }
 
 .background{
@@ -11,13 +17,31 @@ background-image: url(img/bg11.jpg);
   background-position:top
 }
 
-#foot{
-  text-align: center;
+/*Foot para todas las páginas*/
+
+.foot{
+   text-align: center;
 align-items: center;
   bottom: 0;
 width: 100%;
 height: 10%;
-color:#d92323
+background-color:#d92323;
 
 }
 
+a{
+  background-color:#d92323;
+  color: black;
+  margin-bottom: 10px;
+  font-size: 50px;
+  text-decoration: none;
+  border: solid white;
+  border-right: 10px;
+  border-bottom: 10px;
+
+}
+
+
+button:hover{
+  filter: brightness(70%);
+}
