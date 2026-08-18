@@ -17,6 +17,45 @@ background-image: url(img/bg11.jpg);
   background-position:top
 }
 
+/*configuracion de la pagina del calendario pa que todo funcione en plan nashe*/
+.mainobj{
+  margin: 0;
+min-height: 100vh;
+display: grid;
+grid-template-columns: 65% 35%;
+}
+/*Estilo del calendario*/
+#calendario{
+  color: #d92323;
+  margin: 0;
+  background-color: #000;
+ 
+
+}
+#calendario a{
+background-color: #000;
+color: #d92323;
+}
+.metas button{
+  height: 50px;
+  width: 50px;
+  font-size: larger;
+  background-color: white;
+  color: #000;
+  border: solid 1px white;
+  border-color: white;
+  align-items:baseline;
+}
+#monthex{
+  color:#000;
+
+}
+
+.metas{
+  position: relative;
+padding: 60px;
+}
+
 /*Foot para todas las páginas*/
 
 .foot{
