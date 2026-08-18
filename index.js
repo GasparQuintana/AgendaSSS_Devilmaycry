@@ -7,14 +7,7 @@ const calendarElement = document.getElementById('calendario');
 
         locale: 'es',
         headerToolbar:false,
-datesSet: function (info){
-    const fecha=info.view.currentStart;
 
-    const nombreMes=fecha.toLocalDateString('es-ES',{month:'long'});
-
-    document.getElementById('monthex').textContent=nombreMes.toUpperCase();
-
-},
 
 });
 
