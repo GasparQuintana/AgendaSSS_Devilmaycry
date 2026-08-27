@@ -1,5 +1,15 @@
 /*index.html*/
+
+ @font-face {
+  font-family: 'P5';
+  src: url('Fonts/REVISTA.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  unicode-range: U+0020-007F;
+}
+
 .clase{
+  font-family: 'P5';
     color:#d92323;
     font-size:90px;
     text-align: center;
@@ -29,7 +39,6 @@ grid-template-columns: 65% 35%;
   color: #d92323;
   margin: 0;
   background-color: #000;
- 
 
 }
 #calendario a{
