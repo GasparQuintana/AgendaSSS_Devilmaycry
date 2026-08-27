@@ -7,6 +7,7 @@ const calendarElement = document.getElementById('calendario');
 
         locale: 'es',
         headerToolbar:false,
+        
         datesSet: function(info) {
 
     const fecha = info.view.currentStart;
@@ -18,6 +19,22 @@ const calendarElement = document.getElementById('calendario');
     document.getElementById('monthex').textContent =
         nombreMes.toUpperCase();
 },
+dayCellClassNames: function(info) {
+
+    const clases = [];
+
+    if (info.isToday) {
+        clases.push('dia-hoy');
+    }
+
+    if (info.date.getDay() === 0) {
+        clases.push('domingo');
+    }
+
+    return clases;
+},
+
+
 
 
 });
