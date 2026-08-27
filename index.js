@@ -51,9 +51,12 @@ const fecha = new Date();
 const dia = fecha.getDate();
 const mes = fecha.getMonth() + 1;
 const año = fecha.getFullYear();
+    const nombreDia = fecha.toLocaleDateString('es-ES', {
+        weekday: 'long'
+    });
 
 document.getElementById('fecha-meta').textContent =
-    `${dia}/${mes}/${año}`;
+    `${dia}/${mes}/${año} ${nombreDia.toUpperCase()}`;
 
 
 
