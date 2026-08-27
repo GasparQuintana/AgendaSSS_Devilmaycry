@@ -46,7 +46,14 @@ document.getElementById('prev').addEventListener('click', ()=>{
 document.getElementById('next').addEventListener('click', ()=>{
     calendar.next();
 });
+const fecha = new Date();
 
+const dia = fecha.getDate();
+const mes = fecha.getMonth() + 1;
+const año = fecha.getFullYear();
+
+document.getElementById('fecha-meta').textContent =
+    `${dia}/${mes}/${año}`;
 
 
 

@@ -36,14 +36,15 @@ grid-template-columns: 65% 35%;
 }
 /*Estilo del calendario*/
 #calendario{
-  color: #d92323;
+  color: #7b7b7b;
   margin: 0;
   background-color: #000;
+  font-weight: 700;
 
 }
 #calendario a{
 background-color: #000;
-color: #d92323;
+color: #7b7b7b;
 
 }
 .metas button{
@@ -97,11 +98,13 @@ button:hover{
 
 
 /*domingos en rojo*/
-.fc .domingo .fc-daygrid-day-number {
-    color: #e52525;
+.fc .domingo .fc-daygrid-day-number{
+    color: #e52525 !important;
 }
 
-
+.fc .fc-day-today{
+  background-color:#000 !important;
+}
 /*hoy en estrellita*/
 
 .fc .dia-hoy {
